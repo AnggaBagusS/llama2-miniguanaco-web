@@ -1,0 +1,21 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+
+# Hugging Face Cache & Downloaded Models (Jangan di-push ke GitHub karena ukurannya belasan GB)
+hf_cache/
+.cache/
+
+# OS specific
+Thumbs.db
+.DS_Store
+
